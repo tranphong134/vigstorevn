@@ -26,7 +26,7 @@
     @elseif($product->kind == SC_PRODUCT_GROUP)
     <span><img class="product-badge new" src="{{ sc_file($sc_templateFile.'/images/home/group.png') }}" class="new" alt="" /></span>
     @endif
-    <div class="product-button-wrap">
+<!--    <div class="product-button-wrap">
       <div class="product-button">
           <a class="button button-secondary button-zakaria" onClick="addToCartAjax('{{ $product->id }}','wishlist','{{ $product->store_id }}')">
               <i class="fas fa-heart"></i>
@@ -37,5 +37,5 @@
               <i class="fa fa-exchange"></i>
           </a>
       </div>
-    </div>
+    </div> -->
 </article>

@@ -119,7 +119,7 @@
 
                 <div class="rd-navbar-main-element">
                   <!-- RD Navbar Search-->
-                  <div class="rd-navbar-search rd-navbar-search-2">
+                  <!-- <div class="rd-navbar-search rd-navbar-search-2">
                     <button class="rd-navbar-search-toggle rd-navbar-fixed-element-3" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
                     <form class="rd-search" action="{{ sc_route('search') }}"  method="GET">
                       <div class="form-wrap">
@@ -127,7 +127,7 @@
                         <button class="rd-search-form-submit" type="submit"></button>
                       </div>
                     </form>
-                  </div>
+                  </div> -->
                   @if (sc_config('link_cart', null, 1))
                   <!-- RD Navbar Basket-->
                   <div class="rd-navbar-basket-wrap">
