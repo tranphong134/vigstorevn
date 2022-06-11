@@ -13004,14 +13004,14 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-panel {
-    color: #151515;
+    color: #ffffff;
     box-shadow: 0 0 5px 0 rgba(1, 3, 4, 0.19);
-    background: #ffffff;
+    background: #ca171e;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
-    color: #ffffff;
-    background: #ffffff;
+    color: #fff;
+    background: #ca171e;
     border: 1px solid #d7d7d7;
     box-shadow: 0 0 5px 0 rgba(1, 3, 4, 0.19);
 }
