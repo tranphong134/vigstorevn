@@ -11480,7 +11480,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span {
     width: 24px;
     height: 2px;
-    background-color: #151515;
+    background-color: #fff;
     backface-visibility: hidden;
     border-radius: 0;
 }
