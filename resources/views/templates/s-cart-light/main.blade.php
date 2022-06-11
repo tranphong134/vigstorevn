@@ -11,6 +11,7 @@
     <title>{{$title??sc_store('title')}}</title>
     <link rel="icon" href="{{ sc_file(sc_store('icon', null, 'images/icon.png')) }}" type="image/png" sizes="16x16">
     <meta property="og:image" content="{{ !empty($og_image)?sc_file($og_image):sc_file('images/vigstore-org.jpg') }}" />
+    <meta property="og:image:alt" content="{{ !empty($og_image)?sc_file($og_image):sc_file('images/vigstore-org.jpg') }}" />
     <meta property="og:url" content="{{ \Request::fullUrl() }}" />
     <meta property="og:type" content="Website" />
     <meta property="og:title" content="{{ $title??sc_store('title') }}" />

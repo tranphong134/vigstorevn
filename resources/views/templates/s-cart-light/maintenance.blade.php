@@ -7,6 +7,7 @@
     <meta name="keyword" content="{{ $keyword??sc_store('keyword') }}">
     <title>{{ sc_language_render('store.maintenance') }}</title>
     <meta property="og:image" content="{{ !empty($og_image)?sc_file($og_image):sc_file('images/vigstore-org.jpg') }}" />
+    <meta property="og:image:alt" content="{{ !empty($og_image)?sc_file($og_image):sc_file('images/vigstore-org.jpg') }}" />
     <meta property="og:url" content="{{ \Request::fullUrl() }}" />
     <meta property="og:type" content="Website" />
     <meta property="og:title" content="{{ $title??sc_store('title') }}" />
