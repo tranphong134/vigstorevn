@@ -128,6 +128,17 @@
                  </a>
 
                 <div class="rd-navbar-main-element">
+                <div class="rd-navbar-basket-wrap" style="
+    display: block;
+    list-style: none;
+    float: right;
+    width: calc(100% - 170px);
+    text-align: right;
+">
+                    <a style="margin-top:10px;display: inline-block;background-color: #ca181d;padding: 3px 25px;color: white;-webkit-border-bottom-right-radius: 5px;-webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomright: 5px;-moz-border-radius-bottomleft: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;overflow: hidden;font-size: 17px;" href="tel:+84961407139">
+                    <i class="icon mdi mdi-phone"></i> 0961.407.139</a>
+                    
+                  </div>
                   <!-- RD Navbar Search-->
                   <!-- <div class="rd-navbar-search rd-navbar-search-2">
                     <button class="rd-navbar-search-toggle rd-navbar-fixed-element-3" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
@@ -138,13 +149,6 @@
                       </div>
                     </form>
                   </div> -->
-                  
-                  <div class="rd-navbar-basket-wrap">
-                    <a style="margin-top:10px;" class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping202 rd-navbar-fixed-element-2" href="tel:+84961407139">
-                    <span>
-                      <i class="fas fa-phone-volume"></i> 0961.407.139</a>
-                    </span>
-                  </div>
 
                   @if (sc_config('link_cart', null, 1))
                   <!-- RD Navbar Basket-->
