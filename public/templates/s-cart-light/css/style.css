@@ -1255,7 +1255,7 @@ html [class*='section-'].section-top-0 {
 }
 
 .bg-brown-2 {
-    background-color: #454648;
+    background-color: #ca171e;
 }
 
 
@@ -4516,6 +4516,7 @@ img {
     font-style: normal;
     speak: none;
     text-transform: none;
+    color: #fff;
 }
 
 .icon-circle {
@@ -8043,11 +8044,11 @@ textarea.textarea-lg {
 .footer-classic {
     text-align: center;
     letter-spacing: .025em;
-    background: #ffffff;
+    background: #ca171e;
 }
 
 .footer-classic-2 {
-    background: #444a4d;
+    background: #ca171e;
 }
 
 .footer-classic-2 .footer-classic-panel {
@@ -8113,14 +8114,14 @@ textarea.textarea-lg {
 }
 
 .contacts-creative a:hover {
-    color: #d9a1a3;
+    color: #fff;
 }
 
 .contacts-creative .icon {
     vertical-align: middle;
     font-size: 18px;
     line-height: 21px;
-    color: #d9a1a3;
+    color: #fff;
 }
 
 .contacts-creative li+li {
@@ -8206,7 +8207,7 @@ textarea.textarea-lg {
 .footer-classic .bg-brown-1 p,
 .footer-classic .bg-brown-2 p,
 .footer-classic .bg-primary p {
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
 }
 
 .footer-classic .context-dark .button-primary:hover,
@@ -11587,7 +11588,7 @@ html.tablet .ui-to-top {
     border: none;
     cursor: pointer;
     background-color: transparent;
-    color: #cccccc;
+    color: #fff;
     transition: .33s;
 }
 
@@ -12040,7 +12041,7 @@ html.tablet .ui-to-top {
     top: 0;
     right: 0;
     z-index: 1000;
-    background: #ffffff;
+    background: #ca171e;
 }
 
 .rd-navbar-static .rd-navbar-basket-wrap {
