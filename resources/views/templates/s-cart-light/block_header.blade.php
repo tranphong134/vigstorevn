@@ -116,6 +116,16 @@
 
                   </ul>
                 </div>
+                <div class="rd-navbar-basket-wrap">
+                    <a href="{{ sc_route('cart') }}">
+                    <button class="rd-navbar-basket fl-bigmug-line-shopping202">
+                      <span class="count sc-cart" id="shopping-cart">{{ Cart::instance('default')->count() }}</span>
+                    </button>
+                    </a>
+                  </div>
+                  <a title="{{ sc_language_render('cart.page_title') }}" style="margin-top:10px;" class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping202 rd-navbar-fixed-element-2" href="{{ sc_route('cart') }}">
+                    <span class="count sc-cart">{{ Cart::instance('default')->count() }}</span>
+                 </a>
 
                 <div class="rd-navbar-main-element">
                   <!-- RD Navbar Search-->
@@ -128,9 +138,17 @@
                       </div>
                     </form>
                   </div> -->
+                  
+                  <div class="rd-navbar-basket-wrap">
+                    <a style="margin-top:10px;" class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping202 rd-navbar-fixed-element-2" href="tel:+84961407139">
+                    <span>
+                      <i class="fas fa-phone-volume"></i> 0961.407.139</a>
+                    </span>
+                  </div>
+
                   @if (sc_config('link_cart', null, 1))
                   <!-- RD Navbar Basket-->
-                  <div class="rd-navbar-basket-wrap">
+                  <!-- <div class="rd-navbar-basket-wrap">
                     <a href="{{ sc_route('cart') }}">
                     <button class="rd-navbar-basket fl-bigmug-line-shopping202">
                       <span class="count sc-cart" id="shopping-cart">{{ Cart::instance('default')->count() }}</span>
@@ -139,7 +157,8 @@
                   </div>
                   <a title="{{ sc_language_render('cart.page_title') }}" style="margin-top:10px;" class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping202 rd-navbar-fixed-element-2" href="{{ sc_route('cart') }}">
                     <span class="count sc-cart">{{ Cart::instance('default')->count() }}</span>
-                 </a>
+                 </a> -->
+                 
                 @endif
                 </div>
               </div>
