@@ -131,7 +131,7 @@ $layout_page = shop_product_detail
                 <div>
                 {{ sc_language_render('product.category') }}: 
                 @foreach ($product->categories as $category)
-                  <a style="color: red;" href="{{ $category->getUrl() }}">{{ $category->getTitle() }}</a>,
+                  <a style="color: #ca171e;" href="{{ $category->getUrl() }}">{{ $category->getTitle() }}</a>,
                 @endforeach
                 </div>
                 {{--// Category info --}}
@@ -210,7 +210,7 @@ $layout_page = shop_product_detail
             <div class="nav-tabs-wrap">
               <ul class="nav nav-tabs nav-tabs-1">
                 <li class="nav-item" role="presentation">
-                  <a class="nav-link active" href="#tabs-1-1" data-toggle="tab">{{ sc_language_render('product.description') }}</a>
+                  <a class="nav-link active" style="color: #ca171e;font-weight: bold;" href="#tabs-1-1" data-toggle="tab">{{ sc_language_render('product.description') }}</a>
                 </li>
               </ul>
             </div>
