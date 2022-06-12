@@ -32,9 +32,9 @@ if ($lastView && count($lastView)) {
                     <img src="{{ sc_file($productLastView->getThumb()) }}" alt="" width="106" height="104"></a></div>
                 <div class="unit-body">
                   <p class="post-minimal-title"><a href="{{ $productLastView->getUrl() }}">{{ $productLastView->name}}</a></p>
-                  <div class="post-minimal-time">
+                  <!-- <div class="post-minimal-time">
                     <time datetime="{{ sc_datetime_to_date($productLastView['timelastview'],'Y-m-d H:i:s') }}">{{ sc_datetime_to_date($productLastView['timelastview'],'Y-m-d H:i:s') }}</time>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </article>

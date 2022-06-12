@@ -131,7 +131,7 @@ $layout_page = shop_product_detail
                 <div>
                 {{ sc_language_render('product.category') }}: 
                 @foreach ($product->categories as $category)
-                  <a href="{{ $category->getUrl() }}">{{ $category->getTitle() }}</a>,
+                  <a style="color: red;" href="{{ $category->getUrl() }}">{{ $category->getTitle() }}</a>,
                 @endforeach
                 </div>
                 {{--// Category info --}}
@@ -141,7 +141,7 @@ $layout_page = shop_product_detail
                 <div>
                     {{ sc_language_render('product.brand') }}:
                     <span id="product-detail-brand">
-                        {!! empty($product->brand->name) ? 'None' : '<a href="'.$product->brand->getUrl().'">'.$product->brand->name.'</a>' !!}
+                        {!! empty($product->brand->name) ? 'None' : '<a style="color: red;" href="'.$product->brand->getUrl().'">'.$product->brand->name.'</a>' !!}
                     </span>
                 </div>
                 @endif
