@@ -116,29 +116,12 @@
 
                   </ul>
                 </div>
-                <div class="rd-navbar-basket-wrap">
-                    <a href="{{ sc_route('cart') }}">
-                    <button class="rd-navbar-basket fl-bigmug-line-shopping202">
-                      <span class="count sc-cart" id="shopping-cart">{{ Cart::instance('default')->count() }}</span>
-                    </button>
-                    </a>
-                  </div>
-                  <a title="{{ sc_language_render('cart.page_title') }}" style="margin-top:10px;" class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping202 rd-navbar-fixed-element-2" href="{{ sc_route('cart') }}">
-                    <span class="count sc-cart">{{ Cart::instance('default')->count() }}</span>
-                 </a>
 
                 <div class="rd-navbar-main-element">
-                <div class="rd-navbar-basket-wrap" style="
-    display: block;
-    list-style: none;
-    float: right;
-    width: calc(100% - 170px);
-    text-align: right;
-">
+                <div class="rd-navbar-basket-wrap" style="display: block;list-style: none;float: right; width: calc(100% - 170px);text-align: right;">
                     <a style="margin-top:10px;display: inline-block;background-color: #ca181d;padding: 3px 25px;color: white;-webkit-border-bottom-right-radius: 5px;-webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomright: 5px;-moz-border-radius-bottomleft: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;overflow: hidden;font-size: 17px;" href="tel:+84961407139">
                     <i class="icon mdi mdi-phone"></i> 0961.407.139</a>
-                    
-                  </div>
+                </div>
                   <!-- RD Navbar Search-->
                   <!-- <div class="rd-navbar-search rd-navbar-search-2">
                     <button class="rd-navbar-search-toggle rd-navbar-fixed-element-3" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
