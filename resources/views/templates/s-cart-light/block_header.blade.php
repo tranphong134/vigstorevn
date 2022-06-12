@@ -143,7 +143,7 @@
                  </a>
                  
                   @endif
-                  <a href="tel:+84961407139" class="custom-phone-number rd-navbar-basket rd-navbar-fixed-element-2" style="color: white;">
+                  <a href="tel:+84916324069" class="custom-phone-number rd-navbar-basket rd-navbar-fixed-element-2" style="color: white;">
                     <i class="icon mdi mdi-phone" style="font-size: 18px;margin-top: 1px;"></i> 0916.324.069</a>
                 </div>
               </div>
