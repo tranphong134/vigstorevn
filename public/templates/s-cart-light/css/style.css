@@ -6979,6 +6979,9 @@ textarea.textarea-lg {
     .post-minimal-figure img {
         width: 100%;
     }
+    .custom-phone-number {
+        margin-top: 15px;
+    }
 }
 
 .post-minimal-title {
