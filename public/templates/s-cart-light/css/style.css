@@ -6913,6 +6913,9 @@ textarea.textarea-lg {
     .post-nikki-body {
         padding: 30px;
     }
+    .custom-phone-number {
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -6924,6 +6927,9 @@ textarea.textarea-lg {
     }
     *+.post-nikki-title {
         margin-top: 14px;
+    }
+    .custom-phone-number {
+        margin-top: 15px;
     }
 }
 
@@ -6946,6 +6952,9 @@ textarea.textarea-lg {
     .desktop .post-nikki:hover .post-nikki-figure img {
         transform: scale(1.05);
     }
+    .custom-phone-number {
+        margin-top: 15px;
+    }
 }
 
 .post-minimal-figure {
@@ -6958,6 +6967,7 @@ textarea.textarea-lg {
     color: white;
     display: inherit;
     font-size: 18px;
+    margin: auto;
 }
 
 .post-minimal-figure img {
