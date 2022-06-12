@@ -143,7 +143,7 @@
                  </a>
                  
                   @endif
-                  <a style="margin-right: 40px;color: white;display: inherit;font-size: 18px;margin-top: 15px;" href="tel:+84961407139" class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line rd-navbar-fixed-element-2">
+                  <a href="tel:+84961407139" class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line rd-navbar-fixed-element-2 custom-phone-number">
                     <i class="icon mdi mdi-phone" style="font-size: 18px;margin-top: 1px;"></i> 0961.407.139</a>
                 </div>
               </div>

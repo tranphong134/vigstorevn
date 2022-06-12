@@ -6937,6 +6937,9 @@ textarea.textarea-lg {
     .post-nikki-title {
         font-size: 24px;
     }
+    .custom-phone-number {
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -6948,6 +6951,13 @@ textarea.textarea-lg {
 .post-minimal-figure {
     display: block;
     overflow: hidden;
+}
+
+.custom-phone-number {
+    margin-right: 40px;
+    color: white;
+    display: inherit;
+    font-size: 18px;
 }
 
 .post-minimal-figure img {
