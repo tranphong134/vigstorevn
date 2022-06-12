@@ -82,14 +82,14 @@ $layout_page = shop_product_detail
 
                 {{-- Button add to cart --}}
                 @if ($product->kind != SC_PRODUCT_GROUP && $product->allowSale())
-                <div class="group-xs group-middle">
+                <!-- <div class="group-xs group-middle">
                     <div class="product-stepper">
                       <input class="form-input" name="qty" type="number" data-zeros="true" value="1" min="1" max="100">
                     </div>
                     <div>
                         <button class="button button-lg button-secondary button-zakaria" type="submit">{{ sc_language_render('action.add_to_cart') }}</button>
                     </div>
-                </div>
+                </div> -->
                 @endif
                 {{--// Button add to cart --}}
 
