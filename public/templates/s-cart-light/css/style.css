@@ -483,7 +483,8 @@ h3+img {
 }
 
 .font-family-sans-serif {
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
 }
 
 .font-family-sans-serif-1 {
@@ -1500,7 +1501,8 @@ html [class*='section-'].section-top-0 {
 p.rights {
     letter-spacing: 0;
     color: #fff;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
 }
 
 p.rights a,
@@ -1912,7 +1914,8 @@ body {
     font-size: 13px;
     line-height: 1.6;
     font-weight: 400;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
     color: black;
     background-color: #ffffff;
     -webkit-text-size-adjust: none;
@@ -4566,7 +4569,8 @@ img {
     font-weight: 400;
     letter-spacing: .05em;
     background: #ffffff;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
     color: #777777;
     min-width: 170px;
 }
@@ -5763,7 +5767,8 @@ input:-webkit-autofill~.form-validation {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: .025em;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
     color: #151515;
     background-color: transparent;
     background-image: none;
@@ -5817,7 +5822,8 @@ textarea.textarea-lg {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: .025em;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
     transform: translateY(-50%);
     will-change: transform;
     pointer-events: none;
@@ -6285,7 +6291,8 @@ textarea.textarea-lg {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: .05em;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
 }
 
 .rd-form-coupon .form-input {
@@ -9515,7 +9522,8 @@ textarea.textarea-lg {
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: .1em;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
     color: #151515;
 }
 
@@ -15626,7 +15634,8 @@ html.rd-navbar-fixed-linked .page {
     overflow: hidden;
     display: block;
     padding: 8px;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -15902,7 +15911,8 @@ html.rd-navbar-fixed-linked .page {
     padding-left: 20px;
     padding-right: 56px;
     letter-spacing: .05em;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    ;
     color: #777777;
 }
 
